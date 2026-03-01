@@ -1,0 +1,14 @@
+create a pipeline
+
+single stage:
+
+multiple steps:
+
+
+step1: create a directory and create a file inside that directory
+step2: create another directory
+step3: copy the file from directory 1 to directory 2
+
+
+once your pipeline is succesfull
+login to your ec2 instance and check both folder exists but the file exists in directory 2
