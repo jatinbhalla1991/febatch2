@@ -1,1 +1,10 @@
 hello world
+
+$a= yello
+
+background = $a
+
+
+background= $a
+
+background= $a
