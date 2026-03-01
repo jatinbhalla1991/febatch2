@@ -3,3 +3,21 @@ assignment 1 22nd feb
 2. create branching strategies as discussed in class and also look for different branching strategies followed in companies
 3. find the difference between git pull and git fetch commands
 4. try git cheat commands
+
+
+assignment 2 1st march(jenkins)
+
+Question 1
+Create a Jenkins pipeline that:
+
+1.Runs a shell script
+
+2.Collects system details
+
+3. Saves the report as a build artifact
+(note* jenkins file and shell script should be both in your repo)
+
+Question2
+1. create a pipeline in which take input from user
+2. in console output print the value entered by the user
+
