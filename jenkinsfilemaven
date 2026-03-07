@@ -17,6 +17,9 @@ pipeline {
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // Archive the built artifact (JAR file)
+                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
             }
         }
     }
