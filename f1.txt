@@ -1,9 +1,0 @@
-yellow
-
-red
-
-
-ds
-a= 1
-
-

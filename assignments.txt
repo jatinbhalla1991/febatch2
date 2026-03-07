@@ -21,7 +21,7 @@ Question2
 1. create a pipeline in which take input from user
 2. in console output print the value entered by the user
 
-assignment 3 3rd march(jenkins)
+assignment 3 7th march(jenkins)
 
 1.create a private repository in GitHub and store a Jenkins file in it
 
