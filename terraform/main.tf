@@ -36,7 +36,7 @@ resource "aws_instance" "web_server" {
   
   tags = {
     Name = "terraform-web-server"
-    Environment = "dev"
+    Environment = var.env
   }
 }
 

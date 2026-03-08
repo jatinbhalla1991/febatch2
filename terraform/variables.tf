@@ -19,11 +19,17 @@ variable "security_group_description" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance (Amazon Linux 2)"
   type        = string
-  default     = "ami-0b6c6ebed2801a5cb"  # Amazon Linux 2 AMI (update based on your region)
+  default     = "ami-dsds"  # Amazon Linux 2 AMI (update based on your region)
 }
 
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.micro"
+}
+
+
+variable "env" {
+  description = "Environment tag for the EC2 instance"
+  type        = string
+  default     = "dev"
 }

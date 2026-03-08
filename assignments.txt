@@ -35,3 +35,15 @@ assignment 3 7th march(jenkins)
 4. after creating the credentials use that to authenticate.
 
 this time your pipeline will be successful 
+
+
+
+
+assignement 4 8th march (terraform)
+
+1. create a terraform code for below resources
+   ec2
+   s3 bucket
+   sql db
+
+2. try to create and run teraform pipeline from jenkins   
