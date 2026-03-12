@@ -11,10 +11,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Print message
-      run: echo "Message received: ${{ inputs.message }}"
-      shell: bash
-    
     - name: Do something else
       run: |
         echo "Executing custom action"
