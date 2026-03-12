@@ -1,0 +1,15 @@
+name: 'My Custom Action'
+description: 'Description of what the action does'
+inputs:
+  message:
+    description: 'A message to process'
+    required: false
+    default: 'Hello World'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Message received: ${{ inputs.message }}"
+      shell: bash
+branding:
+  icon: 'message-circle'
+  color: 'blue'
