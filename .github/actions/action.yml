@@ -16,3 +16,7 @@ runs:
         echo "Executing custom action"
         echo "From repository: febatch2"
       shell: bash
+    - name: Use the input message
+      run: |
+        echo "The message is: ${{ inputs.message }}"
+      shell: bash
