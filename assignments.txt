@@ -47,3 +47,13 @@ assignement 4 8th march (terraform)
    sql db
 
 2. try to create and run teraform pipeline from jenkins   
+
+
+
+assignment 5 14th march (terraform)
+
+1. create a terraform module to create "2" ec2 instances(Linux, ubuntu)
+2. run and and verify the machines are up and running
+3. try to connect (login to ec2 instance you created though terraform code)
+
+note(" security group rules, key pair")
