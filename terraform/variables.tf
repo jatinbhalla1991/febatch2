@@ -3,19 +3,6 @@ variable "aws_region" {
   type        = string
   default     = "us-east-1"
 }
-
-
-variable "security_group_name" {
-  description = "Name of the security group"
-  type        = string
-  default     = "terraform-instance-sg"
-}
-
-variable "security_group_description" {
-  description = "Description of the security group"
-  type        = string
-  default     = "Security group for Terraform EC2 instance"
-}
 variable "ami_id" {
   description = "AMI ID for the EC2 instance (Amazon Linux 2)"
   type        = string
@@ -28,8 +15,13 @@ variable "instance_type" {
 }
 
 
+variable "bucket_name" {
+  description = "The name of the S3 bucket to create"
+  type        = string
+}
+
 variable "env" {
-  description = "Environment tag for the EC2 instance"
+  description = "Environment tag for the S3 bucket"
   type        = string
   default     = "dev"
 }
