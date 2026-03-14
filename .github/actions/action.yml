@@ -1,0 +1,22 @@
+name: 'My Custom Action'
+description: 'Description of what the action does'
+author: 'Your Name'
+
+inputs:
+  message:
+    description: 'A message to process'
+    required: false
+    default: 'Hello World'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Do something else
+      run: |
+        echo "Executing custom action"
+        echo "From repository: febatch2"
+      shell: bash
+    - name: Use the input message
+      run: |
+        echo "The message is: ${{ inputs.message }}"
+      shell: bash
