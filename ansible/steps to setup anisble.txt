@@ -1,0 +1,41 @@
+sudo apt update
+sudo apt install ansible -y
+
+
+if by default /etc/ansible/  is mising then create the folder and files(ansible cfg, hosts) in it mannually 
+
+master machine
+
+ssh-keygen -t rsa -b 4096
+
+
+
+cd /home/ubuntu/.ssh
+
+ls
+.pub
+
+cat id_rsa.pub
+
+
+<random key>
+
+
+steps on target
+: login to the machine using putty
+
+
+cd /home/ubuntu/.ssh
+
+sudo vim authorized keys
+
+
+at the end of the file copy the key you have printed in the main machine
+
+also grant the permission on target machine
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+
+
+from the main machine      ssh ubuntu@ipadress of the target ---
