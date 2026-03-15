@@ -57,3 +57,29 @@ assignment 5 14th march (terraform)
 3. try to connect (login to ec2 instance you created though terraform code)
 
 note(" security group rules, key pair")
+
+
+
+assignemnt 6 15th march (ansible)
+
+Use Ansible to create multiple users on a remote Linux server.
+
+Requirements
+
+ 1. Create a playbook that:
+
+  a. Creates 3 users (for example: dev1, dev2, dev3)
+
+  b. Assigns them a home directory
+
+  c. Sets their default shell to /bin/bash
+
+2. Ensure the playbook is idempotent (running it multiple times should not create duplicate users).
+
+Expected Verification
+
+Run on the target server:
+
+cat /etc/passwd
+
+The new users should appear in the list.
