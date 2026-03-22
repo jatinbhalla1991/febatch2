@@ -83,3 +83,16 @@ Run on the target server:
 cat /etc/passwd
 
 The new users should appear in the list.
+
+
+assignement 7 22nd march {docker}
+
+1. create a sample code for java application for a website
+2. create a docker file to host that java application
+3. create a image using the docker file and test it using local host
+4. if you can see the out put of the image then push it on the docker hub
+
+assignment 8 (terraform)
+
+1. create a terraform code for ecr and check your ecr is created on aws account
+2. create a terraform code for eks (kubernetes) cluster and validate your cluster is created on aws
