@@ -19,3 +19,8 @@ services:
       - POSTGRES_DB=myappdb
     ports:
       - "5432:5432"
+    volumes:
+      - myvolume1:/var/lib/postgresql/data
+
+volumes:
+  myvolume1:
